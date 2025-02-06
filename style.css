@@ -1,0 +1,72 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: rgb(2, 32, 59);
+  color: white;
+  text-align: center;
+  }
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  font-style: oblique;
+  }
+
+button {
+  padding: 5px;
+  border-radius: 10px;
+  border-color: #dedddd;
+  }
+
+#gameButtonArea > button { 
+  height: 200px;
+  width: 200px;
+  margin: 2px;
+  }
+
+.hidden{
+  display: none;
+}
+
+#startBtn, #stopBtn{
+  height: 40px;
+  width: 80px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+#button1{
+  background-color: lightblue;
+  }
+#button2{
+  background-color: lightpink;
+  }
+#button3{
+  background-color: lightyellow;
+  }
+#button4{
+  background-color: lightgreen;
+  }
+#button1:active, #button1.lit {
+  background:blue;
+  }
+#button2:active, #button2.lit{
+  background:red;
+  }
+#button3:active, #button3.lit {
+  background:yellow;
+  }
+#button4:active, #button4.lit {
+  background:green;
+  }
+  
+
+/* Some Personal Styles I added */
+#gameButtonArea > button:hover {
+  transform: scale(1.05);
+  transition: all 0.1s ease-in-out;
+  }
+
+#startBtn:hover {
+    background: #dedddd;
+    transform: scale(1.1);
+}
